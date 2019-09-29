@@ -4,12 +4,6 @@
 #include "stb_image_write.h"
 #include "png_toolkit.h"
 
-typedef enum
-{
-	a,
-	b,
-	c,
-} RED;
 png_toolkit::png_toolkit()
 {
 }
@@ -44,7 +38,7 @@ void png_toolkit::goRed(void)
 	for (int i = height; i < imgData.h; i++)
 		for (int j = 0; j < imgData.w; j++)
 		{
-			imgData.pixels[imgData.compPerPixel * (i * imgData.w + j)] = (255);
+			imgData.pixels[imgData.compPerPixel * (i * imgData.w + j)] = 255;
 			imgData.pixels[imgData.compPerPixel * (i * imgData.w + j) + 1] = 0;
 			imgData.pixels[imgData.compPerPixel * (i * imgData.w + j) + 2] = 0;
 		}
