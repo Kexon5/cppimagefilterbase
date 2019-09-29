@@ -1,8 +1,2 @@
 CMakeLists.txt.user
 build/*
-/Solution1
-/Lab
-/out/build/x64-Debug
-/.vs/ProjectSettings.json
-/.vs/slnx.sqlite
-/.vs/VSWorkspaceState.json
