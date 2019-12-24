@@ -15,7 +15,8 @@ void manager_filters::init(string configName) {
 		stringstream ss(s);
 		string item;
 		while (getline(ss, item, ' ')) {
-			lexem.push_back(item);
+			if (item != "")
+				lexem.push_back(item);
 		}
 		if (lexem.size() == 5) {
 			try {
