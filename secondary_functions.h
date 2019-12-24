@@ -4,6 +4,7 @@
 #include "png_toolkit.h"
 #include "rectangleArea.h"
 using namespace std;
+
 class secondary_function {
 public:
 	enum NameFunction {

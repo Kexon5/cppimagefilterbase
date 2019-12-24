@@ -1,5 +1,6 @@
 #include "rectangleArea.h"
 
+
 rectangle_area::rectangle_area(vector<string>& coefInStr) {
 	y0 = stoi(coefInStr[1]);
 	x0 = stoi(coefInStr[2]);

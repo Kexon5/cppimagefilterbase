@@ -1,5 +1,6 @@
 #include "secondary_functions.h"
 
+
 void secondary_function::getMedian(image_data& img, rectangle_area& filter_area, rectangle_area& now_area, int* new_value) {
 	vector<stbi_uc> nowElements;
 	int indPix;

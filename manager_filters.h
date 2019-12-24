@@ -6,6 +6,7 @@
 #include <fstream>
 #include <sstream>
 using namespace std;
+
 class manager_filters {
 public:
 	static manager_filters& instance();

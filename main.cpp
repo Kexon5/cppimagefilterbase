@@ -1,5 +1,6 @@
 #include <iostream>
 #include "manager_filters.h"
+
 int main(int argc, char *argv[] )
 {
     // toolkit filter_name base_pic_name sudent_tool student_pic_name limitPix limitMSE

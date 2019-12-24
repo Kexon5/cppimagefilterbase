@@ -1,5 +1,6 @@
 #include "filters.h"
 
+
 void filter::setFilter(image_data& img, rectangle_area& filter_area) {
 	prepareImg(img, filter_area);
 	int const imgSize = img.h * img.w * img.compPerPixel;
