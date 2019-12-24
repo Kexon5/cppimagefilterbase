@@ -12,7 +12,7 @@ void secondary_function::getMedian(image_data& img, rectangle_area& filter_area,
 		}
 	}
 	sort(nowElements.begin(), nowElements.end());
-	new_value[0] = nowElements[nowElements.size() / 2];
+	*new_value = nowElements[nowElements.size() / 2];
 }
 
 int secondary_function::clump(int num) {
