@@ -2,7 +2,7 @@
 #include "png_toolkit.h"
 #include "rectangleArea.h"
 #include "secondary_functions.h"
-
+#include <cstring>
 class filter {
 public:
 	void setFilter(image_data& img, rectangle_area& filter_area);
