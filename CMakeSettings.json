@@ -1,0 +1,17 @@
+﻿{
+  // Дополнительные сведения об этом файле см. по адресу https://go.microsoft.com//fwlink//?linkid=834763.
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "clang_cl_x64" ],
+      "variables": []
+    }
+  ]
+}
